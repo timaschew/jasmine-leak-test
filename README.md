@@ -7,6 +7,8 @@ npm install
 npm test
 ```
 
+Or, open specRunner.html to run the tests in your browser.
+
 ## Observing the leak
 
 ```

@@ -4,6 +4,7 @@ module.exports = function (config) {
     files: [
       './spec.js'
     ],
-    browsers: ['Chrome']
+    browsers: ['Chrome'],
+    port: 9292
   })
 }
