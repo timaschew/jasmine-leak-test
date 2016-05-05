@@ -11,7 +11,7 @@ Or, open specRunner.html to run the tests in your browser.
 
 ## Observing the leak
 
-```
+```sh
 top -O mem # OSX
 top -o %MEM # linux
 ```
