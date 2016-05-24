@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "test-mocha": "karma start mocha-karma.conf.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^3.5.0",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^1.0.1",
-    "karma-jasmine": "^1.0.2"
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha": "^1.0.1",
+    "mocha": "^2.5.2"
   }
 }

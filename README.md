@@ -7,6 +7,11 @@ npm install
 npm test
 ```
 
+```sh
+npm run test-mocha
+```
+
+
 Or, open specRunner.html to run the tests in your browser.
 
 ## Observing the leak

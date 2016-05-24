@@ -1,8 +1,9 @@
 module.exports = function (config) {
   config.set({
-    frameworks: ['jasmine'],
+    frameworks: ['mocha'],
     files: [
-      './test/spec.js'
+      './node_modules/chai/chai.js',
+      './test/mocha.js'
     ],
     browsers: ['Chrome'],
     port: 9292
